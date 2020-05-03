@@ -8,8 +8,8 @@ from torchvision import transforms
 import matplotlib.pyplot as plt
 import numpy as np
 import time
-import AlexNet
-import VGG
+# import AlexNet
+# import VGG
 
 # os.environ["CUDA_VISIBLE_DEVICES"]="1"
 
