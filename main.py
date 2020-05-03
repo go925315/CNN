@@ -10,6 +10,7 @@ import numpy as np
 import time
 # import AlexNet
 # import VGG
+import GoogleNet
 
 # os.environ["CUDA_VISIBLE_DEVICES"]="1"
 
@@ -59,7 +60,8 @@ def train():
 
     # net = torch.load('AlexNet.pkl')
     # net = AlexNet.AlexNet()
-    net = VGG.VGG('VGG19')
+    # net = VGG.VGG('VGG19')
+    net = GoogleNet.GoogleNet()
     print(net)
     net.to(device)
 
