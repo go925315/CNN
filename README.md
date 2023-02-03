@@ -15,5 +15,4 @@ Accuracy of the network on the 10000 test images: 89 %
 CIFAR10 dataset
 Accuracy of the network on the 10000 test images: 91 %
 
-
-!!!
+YOLO 
